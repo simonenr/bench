@@ -116,6 +116,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     color: green;
+    background-color: yellow;
   }
 
     .outline{
