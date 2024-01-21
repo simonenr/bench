@@ -1,7 +1,6 @@
     .container {
       margin: auto;
       height: 100%;
-      max-width: 78em;
     }
 
     header{
@@ -42,12 +41,15 @@
       vertical-align:top;
       margin: 5px;
       position: relative;
+      background-color: red;
+
     }
 
         @media screen and (max-width: 900px) {
           article {
             width: calc((50%) - (13px));
-           
+            max-width:500%;
+            background-color: blue;
           }
         }
 
@@ -55,13 +57,13 @@
           article {
             width: calc((100%) - (13px));
             height: auto;
-            min-height: 100px;
+            min-height: 200px;
+            background-color:purple;
+            min-width:100%;
+            max-width:500px;
           }
         }
 
-    .description{
-
-    }
 
     .intro-content p{
       margin-top: 0px;
@@ -73,7 +75,7 @@
       height: auto;
       margin-top: -14px;
       margin-bottom: 80px;
-      width: calc((50%) - (13px));
+      width: calc((33.33%) - (13px));
       font-size: 24px;
     }
 
@@ -115,8 +117,11 @@
         box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    color: green;
   }
+
+  .description{
+  }
+
 
     .outline{
       height: 175px;
