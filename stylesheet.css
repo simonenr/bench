@@ -1,4 +1,6 @@
-    .container {
+
+
+.container {
       margin: auto;
       height: 100%;
     }
@@ -41,7 +43,7 @@
       vertical-align:top;
       margin: 5px;
       position: relative;
-      background-color: red;
+      background-color: purple;
 
     }
 
