@@ -22,31 +22,21 @@
 
 
         <div class="about-content"> 
-          <p>
-            Contribute
-          </p>
-
-
 
           <form name="contact" action="/success" method="POST" data-netlify="true">
+
+<p> 
+  Leave a message you would like to inscribe on the bench below. You have up to 140 characters of space. What would you like to leave behind?
+</p>
+
             <p>
-              <label>Your Name: <input type="text" name="name" /></label>
+              <label>Message: <textarea name="message" maxlength="140"></textarea></label>
             </p>
-            <p>
-              <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <label>Your Role: <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-              </select></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
+
             <p>
               <button type="submit">Send</button>
             </p>
+
           </form>
 
           
